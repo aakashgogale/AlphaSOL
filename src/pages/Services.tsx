@@ -64,7 +64,7 @@ export function Services() {
   ];
 
   return (
-    <div className="w-full pt-32 pb-20">
+    <div className="w-full pt-12 pb-20">
       {/* Header */}
       <section className="services-header container mx-auto px-6 md:px-12 mb-24 text-center">
         <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6 relative inline-block">

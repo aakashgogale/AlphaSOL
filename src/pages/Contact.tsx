@@ -41,7 +41,7 @@ export function Contact() {
   };
 
   return (
-    <div className="w-full pt-32 pb-20 min-h-[90vh]">
+    <div className="w-full pt-12 pb-20 min-h-[90vh]">
       <section className="container mx-auto px-6 md:px-12">
         <div className="contact-anim mb-16 max-w-3xl">
           <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6">

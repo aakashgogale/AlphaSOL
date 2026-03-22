@@ -164,7 +164,7 @@ export function Home() {
       {/* Hero Section */}
       <section 
         ref={heroRef}
-        className="relative min-h-screen flex flex-col justify-center items-center text-center px-6 pt-32 pb-20 overflow-hidden"
+        className="relative min-h-screen flex flex-col justify-center items-center text-center px-6 pt-12 pb-20 overflow-hidden"
       >
         <div className="absolute inset-0 z-0">
           <div className="absolute top-1/4 left-1/4 w-[500px] h-[500px] bg-accent/20 rounded-full blur-[120px] mix-blend-screen animate-pulse"></div>
