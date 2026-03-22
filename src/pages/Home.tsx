@@ -259,14 +259,14 @@ export function Home() {
             <p className="text-neutral-400 text-lg">Don't just take our word for it.</p>
           </div>
 
-          <div className="flex gap-6 overflow-x-auto pb-12 snap-x snap-mandatory hide-scrollbar" style={{ scrollbarWidth: 'none' }}>
+          <div className="flex flex-col md:flex-row gap-8 md:gap-6 md:overflow-x-auto pb-12 md:snap-x md:snap-mandatory hide-scrollbar" style={{ scrollbarWidth: 'none' }}>
             {[
               { name: 'Sarah Jenkins', role: 'CEO, TechFlow', text: 'StudioX completely transformed our online presence. Their attention to detail and engineering quality is unmatched.', rating: 5 },
               { name: 'Marcus Chen', role: 'Founder, Alvea', text: 'The best agency we’ve ever worked with. They delivered our complex React Native app ahead of schedule.', rating: 5 },
               { name: 'Elena Rodriguez', role: 'CMO, Elevate', text: 'Stunning design work and incredibly smooth animations. Our conversion rate increased by 40% after the redesign.', rating: 5 },
               { name: 'James Wilson', role: 'Director, Nexus', text: 'Professional, communicative, and immensely talented. StudioX is our go-to partner for all digital initiatives.', rating: 5 }
             ].map((review, i) => (
-              <div key={i} className="w-[20px] md:min-w-[400px] bg-primary-800 p-8 rounded-3xl border border-neutral-800 snap-center hover:border-accent/50 transition-colors shrink-0">
+              <div key={i} className="w-full md:min-w-[400px] bg-primary-800 p-8 rounded-3xl border border-neutral-800 md:snap-center hover:border-accent/50 transition-colors">
                 <div className="flex text-yellow-500 mb-6">
                   {[...Array(review.rating)].map((_, j) => (
                     <svg key={j} className="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
