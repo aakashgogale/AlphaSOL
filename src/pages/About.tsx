@@ -66,7 +66,7 @@ export function About() {
   ];
 
   return (
-    <div className="w-full pt-32 pb-20">
+    <div className="w-full pt-12 pb-20">
       {/* Header */}
       <section ref={headerRef} className="container mx-auto px-6 md:px-12 mb-24">
         <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6 relative">
