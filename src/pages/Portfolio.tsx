@@ -88,7 +88,7 @@ export function Portfolio() {
   }, [filter]);
 
   return (
-    <div className="w-full pt-32 pb-20 min-h-screen">
+    <div className="w-full pt-12 pb-20 min-h-screen">
       <section className="portfolio-header container mx-auto px-6 md:px-12 mb-16">
         <h1 className="text-5xl md:text-7xl font-bold tracking-tighter mb-6">
           Selected <span className="text-accent">Work</span>

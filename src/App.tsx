@@ -31,7 +31,7 @@ function App() {
       <ScrollProgress />
       <div className="min-h-screen flex flex-col bg-primary-900 text-neutral-100 selection:bg-accent/30 selection:text-white">
         <Navbar />
-        <main className="flex-grow w-full relative">
+        <main className="flex-grow w-full relative pt-24">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
